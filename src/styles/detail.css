@@ -1,0 +1,150 @@
+.detail-menu {
+  background-color: white;
+  border-radius: 4px;
+  padding: 1.5em;
+  width: 100%;
+}
+
+.detail-menu h4 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+table {
+  /* width: 100%; */
+  border-collapse: collapse;
+  margin-top: 10px;
+  border-radius: 4px
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+.container-review {
+  background-color: white;
+  border-radius: 4px;
+  padding: 1.5em;
+  margin-top: 15px;
+}
+
+.title-review {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.detail-review {
+  margin-top: 10px;
+}
+
+.detail-review-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.name-review {
+  font-weight: bold;
+  margin: 0;
+}
+
+.date-review {
+  margin: 0;
+}
+
+/* FORM */
+.post-review-container {
+  width: 84%;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.post-review-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.post-review-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #265073;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #336186;
+}
+
+/* Optional: Style for form validation error messages */
+input:invalid,
+textarea:invalid {
+  border: 1px solid #ff6347; /* Red border for invalid input */
+}
+
+/* Optional: Style for required field indicators */
+label[for]:after {
+  content: " *";
+  color: #ff6347;
+}
+
+
+.container-info {
+  width: 84%;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.card {
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #F0F0F0;
+  background-color: white;
+}
+
+a {
+  display: inline-block;
+  min-width: 44px;
+  min-height: 44px;
+}
+
+form, button, input {
+  display: inline-block;
+  min-width: 44px;
+  min-height: 44px;
+}

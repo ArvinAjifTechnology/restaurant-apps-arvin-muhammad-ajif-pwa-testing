@@ -1,0 +1,185 @@
+.content {
+    margin: 0 auto;
+    min-height: 100%;
+    width : 100%;
+  }
+   
+  .content .content__heading {
+    font-weight: normal;
+  }
+  
+  .headline__button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    margin-top: 24px;
+    cursor: pointer;
+    padding: 8px 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color:slateblue;
+    transition: opacity 0.3s;
+  }
+  
+  .headline__button:hover {
+    opacity: 0.8;
+  }
+  
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+  }
+  
+  
+  .skip-link:focus {
+    top: 0;
+  }
+  
+  .like {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #265073;
+    
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 50%;
+    border: 0;
+    
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .restaurants {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin: 32px 0;
+  }
+  
+  .restaurant-item {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+   
+  .restaurant-item__header {
+    position: relative;
+  }
+   
+  .restaurant-item .restaurant-item__header .restaurant-item__header__poster {
+    width: 100%;
+  }
+   
+  .restaurant-item .restaurant-item__header .restaurant-item__header__rating {
+    position: absolute;
+    padding: 8px;
+    bottom: 20px;
+    left: 0;
+    display: inline-block;
+    background-color: black;
+    color: white;
+  }
+   
+  .restaurant-item .restaurant-item__header .restaurant-item__header__rating .restaurant-item__header__rating__score {
+    margin-left: 10px;
+  }
+   
+  .restaurant-item .restauarnt-item__content {
+    padding: 16px;
+    width: 100%;
+  }
+   
+  .restaurant-item .restaurant-item__content h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .restaurant-item .restaurant-item__content h3 a {
+    color: #265073;
+    text-decoration: none;
+    min-width: 44px;
+    min-height: 44px;
+  }
+  
+  
+  .restaurant_name {
+    margin-top: 16px;
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px 16px;
+  }
+  
+  .restaurant {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px 16px;
+  }
+   
+  .restaurant__poster {
+    width: 100%;
+    max-width: 20rem;
+  }
+   
+  .restaurant_name .restaurant__info h4 h3 {
+    margin: 8px 0;
+  }
+  
+  .restaurant-label {
+    margin-top: 6px;
+    font-size: 36px;
+    font-weight: 400;
+    color: #2D9596; /* Warna Hijau Tua */
+    text-align: center;
+  }
+  
+  .restaurant-label::after {
+    content: '';
+    margin-top: 16px;
+    display: block;
+    border-bottom: 1px solid #9AD0C2; /* Warna Hijau Muda */
+  }
+  
+  /*
+  Search Bar
+  */
+  
+  .search-bar {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Menengahkan secara horizontal */
+    margin-bottom: 20px; /* Menambahkan margin bawah agar tidak terlalu dekat dengan kontennya */
+  }
+  
+  #searchInput {
+    padding: 10px; /* Menambahkan padding agar lebih lebar dan nyaman */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #searchButton {
+    padding: 10px;
+    background-color: #265073;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #searchButton:hover {
+    background-color: #336186;
+  }

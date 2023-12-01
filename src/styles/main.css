@@ -1,0 +1,31 @@
+@import url('header.css');
+@import url('content.css');
+@import url('detail.css');
+@import url('footer.css');
+@import url('responsive.css');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+ 
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ECF4D6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+a {
+  display: inline-block;
+  min-width: 44px;
+  min-height: 44px;
+}
+
+
+main {
+  padding: 32px;
+  flex: 1;
+}
