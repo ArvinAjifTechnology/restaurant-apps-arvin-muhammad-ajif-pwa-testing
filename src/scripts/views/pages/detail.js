@@ -51,7 +51,6 @@ const Detail = {
       });
 
       try {
-        updateReviewInDOM(reviewData);
         await TheRestaurantDbSource.postReview(
           restaurant.id,
           reviewData.name,
@@ -63,6 +62,7 @@ const Detail = {
         // Optionally, you can display a success message or update the UI
         console.log('Review submitted successfully!');
 
+        updateReviewInDOM(reviewData);
         // Reset the form
         postReviewForm.reset();
       } catch (error) {

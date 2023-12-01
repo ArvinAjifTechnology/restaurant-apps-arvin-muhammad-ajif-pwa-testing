@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 class Navbar extends HTMLElement {
   connectedCallback() {
     this.render();
@@ -17,7 +16,7 @@ class Navbar extends HTMLElement {
        <ul>
         <li><a href="#/restaurant-list">Home</a></li>
          <li><a href="#/like">Liked</a></li>
-         <li><a href="https://github.com/ArvinAjifTechnology/ArvinAjifTechnology/tree/main">About Us</a></li>
+         <li><a href="https://github.com/ArvinAjifTechnology/ArvinAjifTechnology/tree/main" target="_blank" rel="noreferrer">About Us</a></li>
       </ul>
     </nav>
      <nav-bar></nav-bar>
