@@ -2,7 +2,6 @@
 .vscode
 .env
 .test.env
-e2e
  
 node_modules
 package-lock.json
