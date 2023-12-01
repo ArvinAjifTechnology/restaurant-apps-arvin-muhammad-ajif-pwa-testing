@@ -129,7 +129,7 @@ const createRestaurantItemTemplate = (restaurant) => `
 <article tabindex="0" class="card">
     <div class="restaurant-item__header">
       <img class="restaurant-item__header__poster lazyload" alt="${restaurant.name}"
-           src="${restaurant.pictureId ? CONFIG.BASE_IMAGE_URL + restaurant.pictureId : 'https://restaurant-api.dicoding.dev/images/medium/'}">
+           data-src="${restaurant.pictureId ? CONFIG.BASE_IMAGE_URL + restaurant.pictureId : 'https://restaurant-api.dicoding.dev/images/medium/'}">
       <div class="restaurant-item__header__rating">
         <p>⭐️<span class="restaurant-item__header__rating__score">${restaurant.rating}</span></p>
       </div>
